@@ -1,11 +1,7 @@
 
 import pygame
-
 pygame.init()
-
 clock = pygame.time.Clock()
-
-
 
 class window():
     def __init__(self):
@@ -27,7 +23,6 @@ class window():
         self.boundary2=1000
         self.boundary3=30
         self.boundary4=33
-
         
         self.a = 950
         self.b = 910
@@ -166,7 +161,5 @@ if __name__=='__main__':
     z=window()
     z.main_menu()
     y=movement()
-    y.display()
-
-    
+    y.display()    
 pygame.quit()
